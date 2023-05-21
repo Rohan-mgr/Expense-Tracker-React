@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin: 10px 0;
+}
+form input {
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #111;
+}
+form button {
+  padding: 8px;
+  background-color: #8454d6;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+form button:disabled {
+  background-color: #ccc;
+  color: #fff;
+  cursor: not-allowed;
+}
